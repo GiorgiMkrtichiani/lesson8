@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+     width: 100%;
+     height: 136px;
+     background-color: #202020;
+     display: inline-block;
+}
+.container{
+    width: 97%;
+    height: 77px;
+    margin: auto;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 198px;
+    height: 56px;
+    margin-top: 11px;
+}
+.search-engine{
+    width: 312px;
+    height: 56px;
+    margin-top: 11px;
+}
+.logo >h2{
+    color: #cccccc;
+    font-size:33px
+}
+.logo >p{
+    color: #cccccc;
+    font-size: 13px;
+}
+.search-engine >h2{
+    color: #cccccc;
+    font-size: 13px;
+    text-align: end;
+}
+.search-engine .search{
+    width: 240px;
+    height: 29px;
+    background-color: #2b2b2b;
+    border-radius: 6px;
+    margin-left: 72px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #3d3d3d;
+    margin-top: 26px;
+}
+.slide{
+    width: 100%;
+    height: 601px;
+    background-color: #202020;
+    display: inline-block;
+}
+.container-slide{
+    width: 98%;
+    height: 524px;
+    margin: auto;
+    margin-top: 33px;
+
+}
+.nav-bar{
+    width: 100%;
+    height: 43px;
+    background-color: #333333;
+    border-radius: 14px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar >a{
+    color:white;
+    text-decoration: none;
+    align-self:center;
+}
+.nav-bar >a:hover{
+    color:#ff9900;
+    transition: 0.5s;
+}
+.frame{
+    width: 954px;
+    height: 414px;
+    border:solid 7px black;
+    margin:auto;
+}
+.image{
+    width: 940px;
+    height: 400px;
+    background-color: gray;
+}
+.page{
+    width: 136px;
+    height: 16px;
+
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.featured-work{
+    width: 100%;
+    height: 613px;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+}
+.container-work{
+    width: 97%;
+    height: 549px;
+
+    margin: auto;   
+    display: flex;
+    justify-content: start;
+}
+.reset-work{
+    width: 50%;
+    height: 549px;
+}
+.headline{
+    width: 265px;
+    height: 42px;
+    margin:auto;
+}
+.headline >h2{
+    color:#cccccc;
+    font-size: 38px;
+    font-family: serif;
+}
+
+.radius{
+    width: 100%;
+    height: 507px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.radius-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #414040;
+    margin:auto;
+}
+.featured-service{
+    width: 50%;
+    height: 549px;
+
+}
+.featured-service .headline{
+    width: 348px;
+    height: 42px;
+ 
+    margin:auto;
+}
+.featured-service .headline >h2{
+    color:#cccccc;
+    font-size: 35px;
+    font-family: serif;
+}
+.featured-service >.radius{
+    width: 100%;
+    height: 507px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contact{
+    width: 100%;
+    height: 188px;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+}
+.container-contact{
+    width: 96%;
+    height: 109px;
+    background: #333333;
+    border-radius: 7px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.napp{
+    width: 568px;
+    height: 64px;
+}
+.napp >h2{
+    color:#cccccc;
+    font-size:37px;
+}
+.napp >p{
+    color:#cccccc;
+}
+.contact-us{
+    width: 283px;
+    height: 60px;
+    background: #ff9900;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us >a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.end{
+    width: 100%;
+    height: 75px;
+    background: #202020;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    width: 326px;
+    height: 17px;
+ 
+}
+.copyright >h2{
+    color: #cccccc;
+    font-size: 14px;
+}
+.template{
+    width: 158px;
+    height: 17px;
+
+}
+.template >h2{
+    color: #cccccc;
+    font-size:13px;
+}
